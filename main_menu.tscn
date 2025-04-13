@@ -1,13 +1,13 @@
 [gd_scene load_steps=35 format=3 uid="uid://5x6126d5482k"]
 
 [ext_resource type="Script" uid="uid://dk2hojgagglt5" path="res://Scripts/main_menu.gd" id="1_fu7sn"]
-[ext_resource type="Texture2D" uid="uid://it6ip4k6eprh" path="res://assets/Titlescreen rev3.png" id="2_0k4wn"]
+[ext_resource type="Texture2D" uid="uid://it6ip4k6eprh" path="res://assets/background/Titlescreen rev3.png" id="2_0k4wn"]
 [ext_resource type="Texture2D" uid="uid://batss1a2db3x1" path="res://assets/UI/title screen buttons purple.png" id="3_0o4t1"]
 [ext_resource type="Texture2D" uid="uid://betj2tnovjnkl" path="res://assets/UI/Menu/MUSIC.png" id="4_glbon"]
 [ext_resource type="Texture2D" uid="uid://bdqkwue6pua4" path="res://assets/UI/title screen buttons hover color.png" id="4_j5v2v"]
 [ext_resource type="AudioStream" uid="uid://dtgoli7uem4v1" path="res://music/songs/TITLE THEME_ _Sleepwalk_.mp3" id="4_jix8l"]
 [ext_resource type="Texture2D" uid="uid://be77if02xjep2" path="res://assets/UI/Menu/NO MUSIC.png" id="5_nlkkf"]
-[ext_resource type="Script" uid="uid://dsp5ph5hvqyft" path="res://music_button.gd" id="6_qe12f"]
+[ext_resource type="Script" uid="uid://dsp5ph5hvqyft" path="res://Scripts/music_button.gd" id="6_qe12f"]
 [ext_resource type="Texture2D" uid="uid://cl8u2ffm75mpd" path="res://assets/UI/TITLE LIGHT.png" id="8_8qtwp"]
 [ext_resource type="Texture2D" uid="uid://dpfovte7va8uv" path="res://assets/UI/TEAM.png" id="9_dy7ct"]
 [ext_resource type="Script" uid="uid://dvq2fgf6v0bdl" path="res://Scripts/exit.gd" id="11_0k4wn"]
@@ -132,7 +132,7 @@ grow_horizontal = 2
 grow_vertical = 2
 script = ExtResource("1_fu7sn")
 
-[node name="Panel" type="Panel" parent="."]
+[node name="Background" type="Panel" parent="."]
 texture_filter = 1
 layout_mode = 1
 anchors_preset = 15
@@ -221,11 +221,6 @@ texture_normal = ExtResource("4_glbon")
 texture_pressed = ExtResource("5_nlkkf")
 script = ExtResource("6_qe12f")
 
-[node name="AudioStreamPlayer" type="AudioStreamPlayer" parent="."]
-stream = ExtResource("4_jix8l")
-autoplay = true
-bus = &"Music"
-
 [node name="TitleLight" type="Sprite2D" parent="."]
 texture_filter = 1
 position = Vector2(159, 56)
@@ -249,8 +244,15 @@ offset_right = 320.0
 offset_bottom = 180.0
 color = Color(0.32549, 0.168627, 0.384314, 1)
 
-[node name="ButtonClickSfx" type="AudioStreamPlayer" parent="."]
+[node name="Sounds" type="Node" parent="."]
+
+[node name="ButtonClickSfx" type="AudioStreamPlayer" parent="Sounds"]
 stream = ExtResource("11_j5v2v")
+
+[node name="BackgroundMusic" type="AudioStreamPlayer" parent="Sounds"]
+stream = ExtResource("4_jix8l")
+autoplay = true
+bus = &"Music"
 
 [connection signal="pressed" from="Buttons/Play" to="." method="_on_play_pressed"]
 [connection signal="pressed" from="Buttons/Exit" to="Buttons/Exit" method="_on_pressed"]

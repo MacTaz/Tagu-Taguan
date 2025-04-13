@@ -1,7 +1,7 @@
 extends TextureButton
-@onready var sound = $"../ButtonClickSfx"
 var music_bus = AudioServer.get_bus_index("Music")
-@onready var music = "../AudioStreamPlayer"
+@onready var music = $"../AudioStreamPlayer"
+@onready var sound = $"../Sounds/ButtonClickSfx"
 
 
 func _on_pressed() -> void:

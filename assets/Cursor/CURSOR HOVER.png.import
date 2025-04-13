@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://3p4wkybmflxr"
-path="res://.godot/imported/CURSOR HOVER.png-a7e43b0451dc4041b19fee2aae4d7b4a.ctex"
+path="res://.godot/imported/CURSOR HOVER.png-367c61f26e73a6bd3569b43cce2ffbd3.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/CURSOR HOVER.png"
-dest_files=["res://.godot/imported/CURSOR HOVER.png-a7e43b0451dc4041b19fee2aae4d7b4a.ctex"]
+source_file="res://assets/Cursor/CURSOR HOVER.png"
+dest_files=["res://.godot/imported/CURSOR HOVER.png-367c61f26e73a6bd3569b43cce2ffbd3.ctex"]
 
 [params]
 

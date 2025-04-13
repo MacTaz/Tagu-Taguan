@@ -1,7 +1,7 @@
 [gd_scene load_steps=7 format=3 uid="uid://dxpflnt1rdyx8"]
 
 [ext_resource type="Texture2D" uid="uid://yq2fn753t70f" path="res://assets/Furniture/Cabinet/cabinet closed.png" id="1_54rbh"]
-[ext_resource type="Script" uid="uid://dxfjsif7k0gx0" path="res://scenes/cabinet.gd" id="1_c6sfa"]
+[ext_resource type="Script" uid="uid://dxfjsif7k0gx0" path="res://Scripts/cabinet.gd" id="1_c6sfa"]
 [ext_resource type="Texture2D" uid="uid://b8255srstmec8" path="res://assets/Furniture/Cabinet/cabinet open.png" id="2_c6sfa"]
 [ext_resource type="AudioStream" uid="uid://c3sok22assd4h" path="res://music/NEW_SFX/CLOSET SFX.mp3" id="4_jpwin"]
 

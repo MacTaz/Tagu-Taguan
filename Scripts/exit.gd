@@ -1,5 +1,5 @@
 extends Button
-@onready var button_click = $"../../ButtonClickSfx"
+@onready var button_click = $"../../Sounds/ButtonClickSfx"
 
 
 

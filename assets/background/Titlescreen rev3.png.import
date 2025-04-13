@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://de6o8ey7ipabu"
-path="res://.godot/imported/ghostplush-Sheet.png-42bf624818262883e42c53edc41111c4.ctex"
+uid="uid://it6ip4k6eprh"
+path="res://.godot/imported/Titlescreen rev3.png-97a0601e29f64c346721983b2eac60c2.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/ghostplush-Sheet.png"
-dest_files=["res://.godot/imported/ghostplush-Sheet.png-42bf624818262883e42c53edc41111c4.ctex"]
+source_file="res://assets/background/Titlescreen rev3.png"
+dest_files=["res://.godot/imported/Titlescreen rev3.png-97a0601e29f64c346721983b2eac60c2.ctex"]
 
 [params]
 

@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://it6ip4k6eprh"
-path="res://.godot/imported/Titlescreen rev3.png-1dc9c5b83887fab7c6e8f005dfacbf34.ctex"
+uid="uid://c6ytoreklffjv"
+path="res://.godot/imported/Titlescreen rev.png-17e46456bee3d66e2b461c8a64be77b5.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/Titlescreen rev3.png"
-dest_files=["res://.godot/imported/Titlescreen rev3.png-1dc9c5b83887fab7c6e8f005dfacbf34.ctex"]
+source_file="res://assets/background/Titlescreen rev.png"
+dest_files=["res://.godot/imported/Titlescreen rev.png-17e46456bee3d66e2b461c8a64be77b5.ctex"]
 
 [params]
 

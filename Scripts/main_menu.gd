@@ -1,6 +1,6 @@
 extends Control
 @onready var transition = $Transition
-@onready var sound = $ButtonClickSfx
+@onready var sound = $Sounds/ButtonClickSfx
 func _on_play_pressed() -> void:
 	transition.play("fade")
 	sound.play()

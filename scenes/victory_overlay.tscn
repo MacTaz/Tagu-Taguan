@@ -1,7 +1,7 @@
 [gd_scene load_steps=20 format=3 uid="uid://ce6qnlqyr2bar"]
 
 [ext_resource type="Texture2D" uid="uid://dkacxwrouw0yy" path="res://assets/UI/Victory/victory full.png" id="1_4ex8q"]
-[ext_resource type="Script" uid="uid://co32i7b6vndov" path="res://scenes/victory_overlay.gd" id="1_h1v0r"]
+[ext_resource type="Script" uid="uid://co32i7b6vndov" path="res://Scripts/victory_overlay.gd" id="1_h1v0r"]
 [ext_resource type="Texture2D" uid="uid://dud4ofqfoq7xx" path="res://assets/UI/victory buttons hover color.png" id="2_yrsc6"]
 
 [sub_resource type="StyleBoxTexture" id="StyleBoxTexture_jyhhp"]
