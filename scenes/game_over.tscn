@@ -1,0 +1,16 @@
+[gd_scene load_steps=2 format=3 uid="uid://xtt7lpk0u1cm"]
+
+[ext_resource type="Texture2D" uid="uid://cps2phnw4gvdy" path="res://assets/UI/Defeat/gameover with buttons.png" id="1_xeevv"]
+
+[node name="GameOver" type="CanvasLayer"]
+
+[node name="Restart" type="Button" parent="."]
+offset_left = 127.0
+offset_top = 122.0
+offset_right = 187.0
+offset_bottom = 143.0
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+texture_filter = 1
+position = Vector2(160, 91)
+texture = ExtResource("1_xeevv")

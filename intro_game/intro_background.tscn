@@ -1,0 +1,364 @@
+[gd_scene load_steps=28 format=3 uid="uid://bhnqxkxgxjnk"]
+
+[ext_resource type="Texture2D" uid="uid://l6ikr08iwr30" path="res://assets/background/BG VFX.png" id="1_oabld"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_bkp1e"]
+atlas = ExtResource("1_oabld")
+region = Rect2(640, 360, 320, 180)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_b6e46"]
+atlas = ExtResource("1_oabld")
+region = Rect2(320, 360, 320, 180)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_td6w2"]
+atlas = ExtResource("1_oabld")
+region = Rect2(0, 360, 320, 180)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_r2thq"]
+atlas = ExtResource("1_oabld")
+region = Rect2(1920, 180, 320, 180)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_0470j"]
+atlas = ExtResource("1_oabld")
+region = Rect2(1600, 180, 320, 180)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_y0upk"]
+atlas = ExtResource("1_oabld")
+region = Rect2(960, 180, 320, 180)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_jougr"]
+atlas = ExtResource("1_oabld")
+region = Rect2(640, 180, 320, 180)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_cbsqf"]
+atlas = ExtResource("1_oabld")
+region = Rect2(320, 180, 320, 180)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_wisxt"]
+atlas = ExtResource("1_oabld")
+region = Rect2(0, 180, 320, 180)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_wax1t"]
+atlas = ExtResource("1_oabld")
+region = Rect2(1920, 0, 320, 180)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_1umvi"]
+atlas = ExtResource("1_oabld")
+region = Rect2(320, 540, 320, 180)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_il1ip"]
+atlas = ExtResource("1_oabld")
+region = Rect2(0, 540, 320, 180)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_4nt4x"]
+atlas = ExtResource("1_oabld")
+region = Rect2(1920, 360, 320, 180)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_7co2w"]
+atlas = ExtResource("1_oabld")
+region = Rect2(1600, 360, 320, 180)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_70ifa"]
+atlas = ExtResource("1_oabld")
+region = Rect2(1280, 360, 320, 180)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_1tmhi"]
+atlas = ExtResource("1_oabld")
+region = Rect2(1280, 0, 320, 180)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_l5f8m"]
+atlas = ExtResource("1_oabld")
+region = Rect2(960, 0, 320, 180)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_6vm3t"]
+atlas = ExtResource("1_oabld")
+region = Rect2(640, 0, 320, 180)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_8efq7"]
+atlas = ExtResource("1_oabld")
+region = Rect2(320, 0, 320, 180)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_da6cc"]
+atlas = ExtResource("1_oabld")
+region = Rect2(0, 0, 320, 180)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_ivgg2"]
+atlas = ExtResource("1_oabld")
+region = Rect2(1920, 720, 320, 180)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_r4ipc"]
+atlas = ExtResource("1_oabld")
+region = Rect2(1600, 720, 320, 180)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_5xduy"]
+atlas = ExtResource("1_oabld")
+region = Rect2(1280, 720, 320, 180)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_fligg"]
+atlas = ExtResource("1_oabld")
+region = Rect2(960, 720, 320, 180)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_mhjnw"]
+atlas = ExtResource("1_oabld")
+region = Rect2(640, 720, 320, 180)
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_b6e46"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_bkp1e")
+}],
+"loop": true,
+"name": &"death",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_b6e46")
+}],
+"loop": true,
+"name": &"death_1",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_td6w2")
+}],
+"loop": true,
+"name": &"death_2",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_r2thq")
+}],
+"loop": true,
+"name": &"death_3",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_0470j")
+}],
+"loop": true,
+"name": &"death_4",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_y0upk")
+}],
+"loop": true,
+"name": &"hunt",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_jougr")
+}],
+"loop": true,
+"name": &"hunt_1",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_cbsqf")
+}],
+"loop": true,
+"name": &"hunt_2",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_wisxt")
+}],
+"loop": true,
+"name": &"hunt_3",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_wax1t")
+}],
+"loop": true,
+"name": &"hunt_4",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_1umvi")
+}],
+"loop": true,
+"name": &"intro",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_il1ip")
+}],
+"loop": true,
+"name": &"intro_1",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_4nt4x")
+}],
+"loop": true,
+"name": &"intro_2",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_7co2w")
+}],
+"loop": true,
+"name": &"intro_3",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_70ifa")
+}],
+"loop": true,
+"name": &"intro_4",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_1tmhi")
+}],
+"loop": true,
+"name": &"normal",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_l5f8m")
+}],
+"loop": true,
+"name": &"normal_1",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_6vm3t")
+}],
+"loop": true,
+"name": &"normal_2",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_8efq7")
+}],
+"loop": true,
+"name": &"normal_3",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_da6cc")
+}],
+"loop": true,
+"name": &"normal_4",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_ivgg2")
+}],
+"loop": true,
+"name": &"win",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_r4ipc")
+}],
+"loop": true,
+"name": &"win_1",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_5xduy")
+}],
+"loop": true,
+"name": &"win_2",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_fligg")
+}],
+"loop": true,
+"name": &"win_3",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_mhjnw")
+}],
+"loop": true,
+"name": &"win_4",
+"speed": 5.0
+}]
+
+[node name="intro_background" type="Node2D"]
+
+[node name="ParallaxBackground" type="ParallaxBackground" parent="."]
+
+[node name="Layer1" type="ParallaxLayer" parent="ParallaxBackground"]
+motion_scale = Vector2(0.3, 0.3)
+motion_mirroring = Vector2(320, 0)
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="ParallaxBackground/Layer1"]
+texture_filter = 1
+position = Vector2(160, 90)
+sprite_frames = SubResource("SpriteFrames_b6e46")
+animation = &"intro_1"
+autoplay = "intro"
+
+[node name="Layer2" type="ParallaxLayer" parent="ParallaxBackground"]
+motion_scale = Vector2(0.3, 0.3)
+motion_mirroring = Vector2(320, 0)
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="ParallaxBackground/Layer2"]
+texture_filter = 1
+position = Vector2(160, 91)
+sprite_frames = SubResource("SpriteFrames_b6e46")
+animation = &"intro_1"
+autoplay = "intro_1"
+
+[node name="Layer3" type="ParallaxLayer" parent="ParallaxBackground"]
+motion_scale = Vector2(0.5, 0.5)
+motion_mirroring = Vector2(320, 0)
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="ParallaxBackground/Layer3"]
+texture_filter = 1
+position = Vector2(160, 90)
+sprite_frames = SubResource("SpriteFrames_b6e46")
+animation = &"intro_2"
+autoplay = "intro_2"
+
+[node name="Layer4" type="ParallaxLayer" parent="ParallaxBackground"]
+motion_scale = Vector2(0.7, 0.7)
+motion_mirroring = Vector2(320, 0)
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="ParallaxBackground/Layer4"]
+texture_filter = 1
+position = Vector2(160, 90)
+sprite_frames = SubResource("SpriteFrames_b6e46")
+animation = &"intro_3"
+autoplay = "intro_3"
+
+[node name="Layer5" type="ParallaxLayer" parent="ParallaxBackground"]
+motion_mirroring = Vector2(320, 0)
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="ParallaxBackground/Layer5"]
+texture_filter = 1
+position = Vector2(160, 90)
+sprite_frames = SubResource("SpriteFrames_b6e46")
+animation = &"intro_4"
+autoplay = "intro_4"

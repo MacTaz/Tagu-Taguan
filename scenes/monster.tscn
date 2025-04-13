@@ -1,0 +1,152 @@
+[gd_scene load_steps=28 format=3 uid="uid://bri3ubg5bpaj3"]
+
+[ext_resource type="Script" uid="uid://ds6aanp2avcpu" path="res://Scripts/monster.gd" id="1_1cbnp"]
+[ext_resource type="Texture2D" uid="uid://4jkq1cualupb" path="res://assets/monster/Updated monster idle hunt devour/hunt1.png" id="2_s0vn4"]
+[ext_resource type="Texture2D" uid="uid://bh6w0ntid21ym" path="res://assets/monster/Updated monster idle hunt devour/hunt2.png" id="3_c1jio"]
+[ext_resource type="Texture2D" uid="uid://ccem601c7t5w3" path="res://assets/monster/Updated monster idle hunt devour/hunt3.png" id="4_nmppe"]
+[ext_resource type="Texture2D" uid="uid://do73e3ch1hne" path="res://assets/monster/Updated monster idle hunt devour/hunt4.png" id="5_84d41"]
+[ext_resource type="Texture2D" uid="uid://d0mrua5ohf8fg" path="res://assets/monster/Updated monster idle hunt devour/hunt5.png" id="6_nesoo"]
+[ext_resource type="Texture2D" uid="uid://bb67eneg43fkb" path="res://assets/monster/Updated monster idle hunt devour/hunt6.png" id="7_dqnb0"]
+[ext_resource type="Texture2D" uid="uid://dahsgeldbmatr" path="res://assets/monster/Updated monster idle hunt devour/hunt7.png" id="8_vivac"]
+[ext_resource type="Texture2D" uid="uid://ctmn38ir45f1e" path="res://assets/monster/Updated monster idle hunt devour/dvr1.png" id="9_6h0bv"]
+[ext_resource type="Texture2D" uid="uid://basyatj8sb2rs" path="res://assets/monster/Updated monster idle hunt devour/dvr2.png" id="10_0xprk"]
+[ext_resource type="Texture2D" uid="uid://bh2wt06b6ku0f" path="res://assets/monster/Updated monster idle hunt devour/dvr3.png" id="11_0ix62"]
+[ext_resource type="Texture2D" uid="uid://bthyykq4vbqb8" path="res://assets/monster/Updated monster idle hunt devour/dvr4.png" id="12_8luhx"]
+[ext_resource type="Texture2D" uid="uid://bxkwakqd0olgg" path="res://assets/monster/Updated monster idle hunt devour/dvr5.png" id="13_xt71w"]
+[ext_resource type="Texture2D" uid="uid://dp5pd153kifc0" path="res://assets/monster/Updated monster idle hunt devour/dvr6.png" id="14_ok33r"]
+[ext_resource type="Texture2D" uid="uid://bkg6img8uu0nn" path="res://assets/monster/Updated monster idle hunt devour/dvr7.png" id="15_hejqc"]
+[ext_resource type="Texture2D" uid="uid://5f1j1nnoimrk" path="res://assets/monster/Updated monster idle hunt devour/mnster1.png" id="16_tk6rn"]
+[ext_resource type="Texture2D" uid="uid://dnlx4ibbajx82" path="res://assets/monster/Updated monster idle hunt devour/mnstr2.png" id="17_a6p6v"]
+[ext_resource type="Texture2D" uid="uid://btoqnbmfj3ho4" path="res://assets/monster/Updated monster idle hunt devour/mnstr3.png" id="18_rtsjp"]
+[ext_resource type="Texture2D" uid="uid://cqwt5v1rk0iiv" path="res://assets/monster/Updated monster idle hunt devour/mnstr4.png" id="19_kclhv"]
+[ext_resource type="Texture2D" uid="uid://t3qr4xiobguh" path="res://assets/monster/Updated monster idle hunt devour/mnstr5.png" id="20_6cem0"]
+[ext_resource type="Texture2D" uid="uid://c27tjt7t6k3o6" path="res://assets/monster/Updated monster idle hunt devour/mnstr6.png" id="21_unfh5"]
+[ext_resource type="Texture2D" uid="uid://dgo8swq5dyrj0" path="res://assets/monster/Updated monster idle hunt devour/mnstr7.png" id="22_5yx45"]
+[ext_resource type="AudioStream" uid="uid://covtxb0s0dldw" path="res://music/NEW_SFX/ENEMY IDLE.mp3" id="23_84d41"]
+[ext_resource type="AudioStream" uid="uid://c213dyaeka058" path="res://music/NEW_SFX/ENEMY HUNT.mp3" id="24_nesoo"]
+[ext_resource type="AudioStream" uid="uid://bwdefh6u7twll" path="res://music/NEW_SFX/ENEMY DEVOURR.mp3" id="25_dqnb0"]
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_gp4s5"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("2_s0vn4")
+}, {
+"duration": 1.0,
+"texture": ExtResource("3_c1jio")
+}, {
+"duration": 1.0,
+"texture": ExtResource("4_nmppe")
+}, {
+"duration": 1.0,
+"texture": ExtResource("5_84d41")
+}, {
+"duration": 1.0,
+"texture": ExtResource("6_nesoo")
+}, {
+"duration": 1.0,
+"texture": ExtResource("7_dqnb0")
+}, {
+"duration": 1.0,
+"texture": ExtResource("8_vivac")
+}],
+"loop": true,
+"name": &"attack",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("9_6h0bv")
+}, {
+"duration": 1.0,
+"texture": ExtResource("10_0xprk")
+}, {
+"duration": 1.0,
+"texture": ExtResource("11_0ix62")
+}, {
+"duration": 1.0,
+"texture": ExtResource("12_8luhx")
+}, {
+"duration": 1.0,
+"texture": ExtResource("13_xt71w")
+}, {
+"duration": 1.0,
+"texture": ExtResource("14_ok33r")
+}, {
+"duration": 1.0,
+"texture": ExtResource("15_hejqc")
+}],
+"loop": true,
+"name": &"devour",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("16_tk6rn")
+}, {
+"duration": 1.0,
+"texture": ExtResource("17_a6p6v")
+}, {
+"duration": 1.0,
+"texture": ExtResource("18_rtsjp")
+}, {
+"duration": 1.0,
+"texture": ExtResource("19_kclhv")
+}, {
+"duration": 1.0,
+"texture": ExtResource("20_6cem0")
+}, {
+"duration": 1.0,
+"texture": ExtResource("21_unfh5")
+}, {
+"duration": 1.0,
+"texture": ExtResource("22_5yx45")
+}],
+"loop": true,
+"name": &"idle",
+"speed": 5.0
+}]
+
+[sub_resource type="WorldBoundaryShape2D" id="WorldBoundaryShape2D_1cbnp"]
+
+[node name="Monster" type="Area2D"]
+script = ExtResource("1_1cbnp")
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
+texture_filter = 1
+scale = Vector2(1.5, 1.5)
+sprite_frames = SubResource("SpriteFrames_gp4s5")
+animation = &"attack"
+autoplay = "idle"
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+position = Vector2(12, 52.5)
+shape = SubResource("WorldBoundaryShape2D_1cbnp")
+
+[node name="attack_cooldown" type="Timer" parent="."]
+one_shot = true
+
+[node name="death_timer" type="Timer" parent="."]
+wait_time = 6.0
+one_shot = true
+
+[node name="attack_time" type="Timer" parent="."]
+wait_time = 3.0
+one_shot = true
+
+[node name="IdleAudio" type="AudioStreamPlayer" parent="."]
+stream = ExtResource("23_84d41")
+bus = &"SFX"
+
+[node name="HuntAudio" type="AudioStreamPlayer" parent="."]
+stream = ExtResource("24_nesoo")
+bus = &"SFX"
+
+[node name="DevourAudio" type="AudioStreamPlayer" parent="."]
+stream = ExtResource("25_dqnb0")
+bus = &"SFX"
+
+[connection signal="body_entered" from="." to="." method="_on_body_entered"]
+[connection signal="timeout" from="attack_cooldown" to="." method="_on_attack_cooldown_timeout"]
+[connection signal="timeout" from="death_timer" to="." method="_on_death_timer_timeout"]
+[connection signal="timeout" from="attack_time" to="." method="_on_attack_time_timeout"]

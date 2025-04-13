@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://bpw70j01ybycd"
+path="res://.godot/imported/BIRDS CHIRP.mp3-29342c0bf67bb3d0b3c4035b0c097072.mp3str"
+
+[deps]
+
+source_file="res://music/NEW_SFX/BIRDS CHIRP.mp3"
+dest_files=["res://.godot/imported/BIRDS CHIRP.mp3-29342c0bf67bb3d0b3c4035b0c097072.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://dxvslawrh0k6q"
+path="res://.godot/imported/VICTORY THEME REV.MP3-d47f6b686a48447fd0fb5615b21bc865.mp3str"
+
+[deps]
+
+source_file="res://music/songs/VICTORY THEME REV.MP3"
+dest_files=["res://.godot/imported/VICTORY THEME REV.MP3-d47f6b686a48447fd0fb5615b21bc865.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

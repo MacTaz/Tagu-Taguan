@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://baqfkbs2sly7k"
+path="res://.godot/imported/BUTTON REVISED.mp3-a8157c754301822c3e5cdf3977d7d8c1.mp3str"
+
+[deps]
+
+source_file="res://music/NEW_SFX/BUTTON REVISED.mp3"
+dest_files=["res://.godot/imported/BUTTON REVISED.mp3-a8157c754301822c3e5cdf3977d7d8c1.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

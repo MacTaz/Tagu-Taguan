@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://d0tw1b3dxnjdr"
+path="res://.godot/imported/REVERSAL THEME_ _Missing Torso_.mp3-4eeff3f24b2a2c818f73d4903018ff4f.mp3str"
+
+[deps]
+
+source_file="res://music/songs/REVERSAL THEME_ _Missing Torso_.mp3"
+dest_files=["res://.godot/imported/REVERSAL THEME_ _Missing Torso_.mp3-4eeff3f24b2a2c818f73d4903018ff4f.mp3str"]
+
+[params]
+
+loop=true
+loop_offset=0.0
+bpm=0.0
+beat_count=0
+bar_beats=4

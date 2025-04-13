@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://bwdefh6u7twll"
+path="res://.godot/imported/ENEMY DEVOURR.mp3-236444427b1bbbce896a62dacf0e61ef.mp3str"
+
+[deps]
+
+source_file="res://music/NEW_SFX/ENEMY DEVOURR.mp3"
+dest_files=["res://.godot/imported/ENEMY DEVOURR.mp3-236444427b1bbbce896a62dacf0e61ef.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

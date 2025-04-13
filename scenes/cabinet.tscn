@@ -1,0 +1,50 @@
+[gd_scene load_steps=7 format=3 uid="uid://dxpflnt1rdyx8"]
+
+[ext_resource type="Texture2D" uid="uid://yq2fn753t70f" path="res://assets/Furniture/Cabinet/cabinet closed.png" id="1_54rbh"]
+[ext_resource type="Script" uid="uid://dxfjsif7k0gx0" path="res://scenes/cabinet.gd" id="1_c6sfa"]
+[ext_resource type="Texture2D" uid="uid://b8255srstmec8" path="res://assets/Furniture/Cabinet/cabinet open.png" id="2_c6sfa"]
+[ext_resource type="AudioStream" uid="uid://c3sok22assd4h" path="res://music/NEW_SFX/CLOSET SFX.mp3" id="4_jpwin"]
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_jpwin"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("1_54rbh")
+}],
+"loop": true,
+"name": &"closed",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("2_c6sfa")
+}],
+"loop": true,
+"name": &"idle",
+"speed": 5.0
+}]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_42ncc"]
+size = Vector2(64, 64)
+
+[node name="Cabinet" type="Area2D"]
+collision_layer = 255
+collision_mask = 255
+script = ExtResource("1_c6sfa")
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
+texture_filter = 1
+sprite_frames = SubResource("SpriteFrames_jpwin")
+animation = &"idle"
+autoplay = "idle"
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+shape = SubResource("RectangleShape2D_42ncc")
+
+[node name="Hide" type="AudioStreamPlayer2D" parent="."]
+stream = ExtResource("4_jpwin")
+volume_db = 18.0
+bus = &"SFX"
+
+[connection signal="body_entered" from="." to="." method="_on_body_entered"]
+[connection signal="body_exited" from="." to="." method="_on_body_exited"]

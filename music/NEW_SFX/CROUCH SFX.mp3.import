@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://bcr4370vv5ool"
+path="res://.godot/imported/CROUCH SFX.mp3-c80a5504679032bd649d3db210cb4684.mp3str"
+
+[deps]
+
+source_file="res://music/NEW_SFX/CROUCH SFX.mp3"
+dest_files=["res://.godot/imported/CROUCH SFX.mp3-c80a5504679032bd649d3db210cb4684.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

@@ -1,0 +1,57 @@
+[gd_scene load_steps=8 format=3 uid="uid://bg4xvituvgilo"]
+
+[ext_resource type="Script" uid="uid://cr78xwibym8ih" path="res://Scripts/desk.gd" id="1_1lsps"]
+[ext_resource type="Texture2D" uid="uid://ci22j0vbmm8wc" path="res://assets/Furniture/TABLE.png" id="1_uouto"]
+[ext_resource type="AudioStream" uid="uid://bcr4370vv5ool" path="res://music/NEW_SFX/CROUCH SFX.mp3" id="2_hux2a"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_uouto"]
+atlas = ExtResource("1_uouto")
+region = Rect2(0, 0, 64, 64)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_uj4jp"]
+atlas = ExtResource("1_uouto")
+region = Rect2(64, 0, 64, 64)
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_yxmve"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_uouto")
+}],
+"loop": true,
+"name": &"Idle",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_uj4jp")
+}],
+"loop": true,
+"name": &"hide",
+"speed": 5.0
+}]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_uj4jp"]
+size = Vector2(64, 55)
+
+[node name="Furniture" type="Area2D"]
+z_index = 3
+collision_layer = 255
+collision_mask = 255
+script = ExtResource("1_1lsps")
+
+[node name="CrouchSfx" type="AudioStreamPlayer" parent="."]
+stream = ExtResource("2_hux2a")
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
+texture_filter = 1
+sprite_frames = SubResource("SpriteFrames_yxmve")
+animation = &"Idle"
+autoplay = "Idle"
+frame_progress = 0.768962
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+position = Vector2(0, 1)
+shape = SubResource("RectangleShape2D_uj4jp")
+
+[connection signal="body_entered" from="." to="." method="_on_body_entered"]

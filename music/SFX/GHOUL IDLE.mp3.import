@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://dxoq0sjth3w5l"
+path="res://.godot/imported/GHOUL IDLE.mp3-8cd04231124d24ea23975c25a4d1d8f4.mp3str"
+
+[deps]
+
+source_file="res://music/SFX/GHOUL IDLE.mp3"
+dest_files=["res://.godot/imported/GHOUL IDLE.mp3-8cd04231124d24ea23975c25a4d1d8f4.mp3str"]
+
+[params]
+
+loop=true
+loop_offset=0.0
+bpm=0.0
+beat_count=0
+bar_beats=4

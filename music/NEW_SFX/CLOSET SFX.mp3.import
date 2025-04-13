@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://c3sok22assd4h"
+path="res://.godot/imported/CLOSET SFX.mp3-7f5a3205739465bb378d01374d0ac8ff.mp3str"
+
+[deps]
+
+source_file="res://music/NEW_SFX/CLOSET SFX.mp3"
+dest_files=["res://.godot/imported/CLOSET SFX.mp3-7f5a3205739465bb378d01374d0ac8ff.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4
